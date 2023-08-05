@@ -11,7 +11,6 @@ house_price = st.number_input('House price (€)', value=500000, step=50000, for
 down_payment = st.number_input('Down payment (€)', value=0, step=5000, format="%i")
 annual_interest_rate = st.number_input('Annual interest rate (%)', value=4.5, step=0.1)
 loan_term = st.number_input('Loan term (years)', value=30, step=1)
-full_year_salary = st.number_input('Full Year Salary (€)', value=50000, step=5000, format="%i")
 tax_deduction = st.checkbox('Apply tax deduction (hypotheekrenteaftrek)?')
 mortgage_type = st.selectbox('Mortgage Type', ["annuity", "linear"])
 
